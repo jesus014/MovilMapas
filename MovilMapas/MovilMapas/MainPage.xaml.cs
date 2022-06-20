@@ -36,7 +36,7 @@ namespace MovilMapas
         double longitud;
 
 
-        public MainPage(Func<MapView, MapClickedEventArgs, bool> c = null)
+        public MainPage()
         {
             InitializeComponent();
             #region antes
